@@ -1,0 +1,129 @@
+/* berlaku ke semua versi termasuk mobile*/
+/* navbar */
+.navbar-brand{
+	font-family: Viga;
+	font-size: 32px;
+	}
+.tombol{
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+.jumbotron{
+	background-image: url(images/bg_3.jpg);
+	background-size: cover;
+	height: 340px;
+}
+.jumbotron .display-4{
+	color: white;
+	text-align: center;
+	margin-top: 120px;
+	font-weight: 200;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.jumbotron .display-4 span{
+	font-weight: 500;
+}
+/* workingspace*/
+.workingspace{
+	margin-top: 10px;
+	color: black;
+}
+.workingspace h4{
+	font-size: 25px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 60px;
+}
+.workingspace h4 span{
+	font-weight: 400;
+}
+.workingspace p{
+	font-size: 11px;
+	color: #949494;
+	font-weight: 200;
+}
+.workingspace img{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: 90px;
+	left: 70%;
+	width: 70%;
+}
+#templet_footer {
+	clear: both;
+	width: 100%;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color: #111110;
+}
+#templet_footer a{
+	color: #fff;
+	font-weight: normal;
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+}
+.container hr{
+	width: 500px;
+	border-top:3px solid #999;
+}
+h3{
+	color: red;
+}
+/* Desktop version	*/
+@media (min-width: 992px) { 
+	.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+	.nav-link{
+	text-transform: uppercase;
+	margin-right: 30px;
+	}
+	.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	}
+	.jumbotron{
+	margin-top: -75px;
+	height: 540px;
+	}
+	.workingspace{
+	text-align: left;
+	}
+	.jumbotron .display-4{
+	font-size: 62px;
+	}
+	.workingspace h4{
+	font-size: 35px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 60px;
+	}
+	.workingspace h4 span{
+	font-weight: 500;
+	}
+	.workingspace p{
+	font-size: 13px;
+	color: #ACACAC;
+	font-weight: 200;
+	}
+	.workingspace img{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+	left: 60%;
+	width: 60%;
+	}
+}
